@@ -9,9 +9,9 @@ The code is written in Python 3 and Pytorch.
 ![Agent](resources/reacher.gif)
 
 ## Agent
- - As mentioned earlier a DDPG agent is built using Pytorch.
- - A simple two hidden-layer neural network is used to build the actor and the critic networks.
- - The Network Architecture for the Actor looked like this: 
+- As mentioned earlier a DDPG agent is built using Pytorch.
+- A simple two hidden-layer neural network is used to build the actor and the critic networks.
+- The Network Architecture for the Actor looked like this: 
     - **State => (512 + BatchNorm + ReLU) => (256 + BatchNorm + ReLU)  => (Actions + tanh)**
 
 - The Network Architecture for the Critic looked like this: 
