@@ -3,7 +3,7 @@ import random
 import copy
 from collections import namedtuple, deque
 
-from oldmodel import ActorNet, CriticNet
+from model import ActorNet, CriticNet
 
 import torch
 import torch.nn.functional as F
